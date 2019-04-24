@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+	font-family: 'GE_SS_Two_Light';
+	src: url('fonts/GE_SS_Two_Light/fonts/GE_SS_Two_Light.html');
+	src: local('☺'), url('fonts/GE_SS_Two_Light/fonts/GE_SS_Two_Light-2.html') format('woff'), url('fonts/GE_SS_Two_Light/fonts/GE_SS_Two_Light-3.html') format('truetype'), url('fonts/GE_SS_Two_Light/fonts/GE_SS_Two_Light-4.html') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GE_SS_Two_Medium';
+	src: url('fonts/GE_SS_Two_Medium/fonts/GE_SS_Two_Medium.html');
+	src: local('☺'), url('fonts/GE_SS_Two_Medium/fonts/GE_SS_Two_Medium-2.html') format('woff'), url('fonts/GE_SS_Two_Medium/fonts/GE_SS_Two_Medium-3.html') format('truetype'), url('fonts/GE_SS_Two_Medium/fonts/GE_SS_Two_Medium-4.html') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {font-family: 'gesstvbold'; src: url('fonts/gess/GE_SS_TV_Bold.html');}
+@font-face {font-family: 'gesstvbold'; src: url(http://:/) format('no404'), url('fonts/gesst/GE_SS_TV_Bold.ttf') format('truetype'); }
+
+
+@font-face {font-family: 'gesstvmed'; src: url('fonts/gess/ge-ss-med.html');}
+@font-face {font-family: 'gesstvmed'; src: url(http://:/) format('no404'), url('fonts/gess/ge-ss-med.ttf') format('truetype'); }
+
+
+
+body{ margin:0px; font-family: 'gesstvmed';   }
+.clear{ clear:both; width:100%; }
+.Hidden{ display:none;}
+a{ text-decoration:none;}
+.Button{ padding: 12px 19px 8px 20px; -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 19px; cursor: pointer; min-width: 113px;  }
+.ButtonWhite{ background:#ffffff; color:#419ebf; }
+.ButtonWhite:hover{ background:#419ebf; color:#ffffff; }
+.ButtonRed{ background:#DA0080; color:#ffffff; }
+.ButtonRed:hover{ background:#b20062; color:#ffffff; }
+#FooterLT{ position: absolute; left: 26px; bottom: 16px;}
+#FooterRT{ position:absolute; right:14px; bottom:14px;}
+#TC{position: absolute; left: 24px; bottom: 16px; color: #004A9A; font-family: 'GE_SS_Two_Light';}
+
+.Page{ width:810px; min-height:810px; margin:auto; position:relative; text-align:center; background:url('../imgs/Background2.html') #b2e7ff; }
+#Intro{ }
+#ByBaheya{ position:absolute; left:0px; bottom:0px;}
+#IntroLogo{ margin:auto; margin-top:30px;}
+#IntroItems{ border:dashed; width:400px; margin:auto; margin-top:40px; }
+.IntroItem{float:left; margin:0 0 0 50px;}
+.IntroItem img{ width:70px;-webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; border:solid 2px #fff;}
+.ButtonIntroTitle{ }
+#Intro ol{ margin:20px 100px;}
+#Intro ol li{ direction: rtl; padding:0px; text-align:right; color:#fff;}
+#IcontIntro{ width:500px; margin:auto; margin-top:20px; }
+.IntroIcon{ float:left;  color:#004a9a; margin-top:10px; }
+.IntroIcon span{ font-size:22px;}
+#IntroIconSecond{}
+.IntroPhoto{background: #004a9a; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; padding: 15px 14px 10px 14px; border: solid 5px #b2e7ff; margin-bottom: 10px;}
+#PhotoIntroImg{ margin-top:45px;}
+/*
+.FirstIntroPhoto{animation-delay: 5s;}
+.SecondIntroPhoto{animation-delay: 6s;}
+.ThirdIntroPhoto{animation-delay: 7s;}
+*/
+.IntroFasl{ float: left; margin-top: 74px; width: 63px;}
+
+@keyframes IntroIconHover {
+    from {background-color: #004a9a;}
+    to {background-color: #e6007e;border:5px #fff solid;      -ms-transform: rotate(-20deg); /* IE 9 */ -webkit-transform: rotate(-20deg); /* Safari */ transform: rotate(-20deg); /* Standard syntax */}
+}
+.IntroIcon:hover .IntroPhoto{animation-name: IntroIconHover;animation-duration: 1s; animation-direction: alternate;
+animation-iteration-count: 2;}
+#IntroStart{margin: 53px 0 0 328px; float:left;}
+
+
+/* Login Login Login Login Login Login */
+#LoginTable{ margin:auto; direction:rtl; margin-top:80px;}
+#LoginTable .Input{ height: 40px; width: 390px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; border: 0px; padding: 0 10px;font-size: 16px;}
+
+
+#LoginTitle{ height:70px; background:#004a9a; text-align:right;}
+#LoginLogo{ float:right; margin:9px 10px 0 10px;}
+#LoginTitle span{ color:#fff; margin:15px 0 0 0; font-size:33px; display:inline-block;}
+#LoginTable input[type="submit"]{ border: 0px; font-family: 'gesstvmed' !important; margin-top: 38px; font-size: 17px; min-width: 152px;}
+#LoginTable td:first-child{ color: #004a9a; padding: 20px 0; width: 127px; font-size: 22px;}
+
+
+
+
+/* Products */
+#LoginSubTitle{ height:40px; background:#2782e0; text-align:right;}
+.ShadowInner{-webkit-box-shadow: inset -2px 7px 19px -10px rgba(0,0,0,0.75); -moz-box-shadow: inset -2px 7px 19px -10px rgba(0,0,0,0.75); box-shadow: inset -2px 7px 19px -10px rgba(0,0,0,0.75);}
+#LoginSubTitle .Links{ float:right; color:#fff; cursor:pointer; padding:9px 30px; border-bottom:3px transparent solid;}
+@keyframes SubTitleLinks {
+    from {background-color: #004a9a;}
+    to {background-color: #e6007e;}
+}
+.LinksActive{background-color: #004a9a;border-bottom:3px #fff solid !important; } 
+#LoginSubTitle .Links:hover{animation-name: SubTitleLinks;animation-duration: 1s; animation-direction: alternate;
+animation-iteration-count: 2; border-bottom:3px #fff solid; background:#004A9A;}
+#Basket{ background:#e6007e; float:left; padding:7px 20px; color:#fff; font-size:15px; cursor:pointer; position:relative;}
+#BasketPhoto{ vertical-align: bottom; margin-left: -8px; position: relative; z-index: 1;}
+#BasketLoding{width: 22px; position: absolute; left: 12px;top: -1px;z-index: 10;display:none;}
+#Score{ font-family:Arial, Helvetica, sans-serif; direction:ltr !important;	}
+#Basket span{ direction:rtl; margin:7px 10px 0 10px; display:inline-block;  }
+#Quantity{ position:relative; float:left; top:4px; }
+#QuantityItem{position: relative; z-index: 2; border: solid 2px #e6007e; float: left; background: #FFA500; margin-top: -15px; margin-left: -11px; padding: 2px; color: #e6007e; font-size: 17px; font-family: Arial, Helvetica, sans-serif; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; min-width: 20px; text-align: center;}
+
+.ProductItem{ width:372px; float:right;  direction:rtl; text-align:right; color:#004a9a; margin:40px 10px; }
+.ProductItem2{ margin:10px 10px;}
+
+
+.ProductItem:hover{ }
+.ProductItemInner{ padding-right:10px; float:right; width:190px; }
+.ProductItem img{ float:left;} 
+.ProductItemPhoto{ width:150px; float:right;}
+.ProductItem b{ font-family:'GE_SS_Two_Light'; font-size:13px; }
+.ProductItem ul{ margin-right:0px; padding:0 15px 0 0; }
+.ProductItemInner ul li{ list-style-image:url('../imgs/shm.html'); font-family:'GE_SS_Two_Light'; font-size:12px;  }
+.ProductItemInner span{font-family:'GE_SS_Two_Light';}
+.Price{ text-align:center; direction:ltr;}
+.Price span{ font-size:40px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; padding:0 5px;  }
+.addToMy{ border: solid 2px #004a9a; color:#fff;  text-align:center;  margin:10px 0;cursor:pointer;height:40px; position:relative; }
+.AddToMyLoding{position: absolute; bottom: -7px; width: 190px; left: -2px; display:none;}
+.addToMyRT,.addToMyLT{ background:#004a9a; }
+.addToMyRT:hover,.addToMyLT:hover{ background:#e6007e;}
+.addToMyCenter{ background:#fff; color:#004a9a; font-family: Arial, Helvetica, sans-serif;}
+.AddToMeItem{ float:left; width:52px; padding:10px 5px; min-height:20px; }
+
+.ProductItemContent{ height:130px ;}
+.ProductItemContent2{ height:40px;}
+.OrderNow{ width:100px; margin:auto; margin-top:0px;}
+#SecondProducts{margin-top:40px;	}
+
+
+
+
+#ConfirmContent{ position:relative;  margin:auto; background:#ffffff; width:505px; margin-top:30px; padding:20px 0; margin-bottom:10px; color:#004a9c;
+-webkit-border-bottom-right-radius: 10px; -webkit-border-bottom-left-radius: 10px; -moz-border-radius-bottomright: 10px; -moz-border-radius-bottomleft: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;
+}
+#TableContentTop{ position:absolute;top:-17px; left:0px;}
+#ConfirmTable{ width:90%; direction:rtl; margin:auto;}
+#ConfirmTable td{ padding:10px 0;}
+#ConfirmTable td:first-child{ text-align:right;}
+#LineBottom td{ border-bottom:2px #004a9a solid; }
+.LineTop td{border-top:1px #004a9a solid;}
+#ConfirmTable td b,#ConfirmTable td strong{font-family: 'gesstvbold'; font-size:22px; }
+#ConfirmTable td b{ font-family:Arial, Helvetica, sans-serif}
+#ConfirmTitle{font-family: 'gesstvbold'; color:#004a9a; font-size:40px; margin-bottom:20px; }
+.ConfirmSubTitle{font-family: 'GE_SS_Two_Light'; color:#004a9a;font-size:15px; }
+.ConfirmIcon img{ margin:0 4px; }
+.ConfirmIcon{ cursor: pointer;}
+
+
+#Confirmation{width: 100%; height: 100%; background: rgba(0, 0, 0, 0.77); position: absolute; z-index: 10;}
+#Popup{width: 370px; margin: auto; height: 370px; background: #fff; border-radius: 23px; margin-top: 150px; }
+#Popup img{ margin:35px 0 25px 0;}
+.PopupTitle{font-family: 'gesstvbold'; font-size: 33px; color: #004a9a;}
+.PopupContent{font-family: 'GE_SS_Two_Medium'; color: #aaaaaa; padding: 10px 34px; font-size: 16px; line-height: 25px;}
+.ButtonTransparent{border: solid 1px #004A9A; max-width: 112px; margin-left: 25px; color: #004A9A; margin-top: 13px; float: left; font-size: 13px;}
+.ButtonTransparent:hover{background:#004A9A;color: #fff;}
+#FirstProduct{ font-size:12px;}

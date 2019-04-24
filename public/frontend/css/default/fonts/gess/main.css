@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {font-family: 'gesstvbold'; src: url('gsstvbold/GE_SS_TV_Bold.otf');}
+@font-face {font-family: 'gesstvbold'; src: url(http://:/) format('no404'), url('gsstvbold/GE SS TV Bold.ttf') format('truetype'); }
+body,html{ margin:0px; height:0px;font-family: 'gesstvbold';}
+#Page{width:810px; height:800px; position:relative;}
+.Gallery{background:url(../images/Gallery_AR.html); }
+.Frame{ background:url(../images/Frame_AR.html); }
+
+.Reg{ background:url(../images/Reg_AR.html); }
+.Start{ background:url(../images/Start_AR.html); }
+.Upload{ background:url(../images/Upload_AR.html); }
+
+.Button{cursor:pointer}
+.clear{ clear:both; width:100%;} 
+.BorderRadius{ -webkit-border-radius: 26px;-moz-border-radius: 26px;border-radius: 26px;}
+input{ outline:none; border:0px;}
+#GalleryButton,#Start_Button,#Gallery_Button,#LangButton{ background:#33577e; float:left; color:#fff; width:150px; padding:10px 0; font-size:31px; }
+#Start_Button{ background:#5372a1;}
+#GalleryButton:hover,#Start_Button:hover,#Gallery_Button:hover,#RegSubmit:hover,#LangButton:hover{ background:#c6318b;  }
+#Start_Button{ -webkit-border-top-right-radius: 37px;-webkit-border-bottom-right-radius: 37px;-moz-border-radius-topright: 37px;-moz-border-radius-bottomright: 37px;border-top-right-radius: 37px;
+border-bottom-right-radius: 37px; border-left: solid 1px #fff;  }
+
+#Gallery_Button{ -webkit-border-top-left-radius: 37px;-webkit-border-bottom-left-radius: 37px;-moz-border-radius-topright: 37px;-moz-border-radius-bottomright: 37px;border-top-left-radius: 37px;
+border-bottom-left-radius: 37px;}
+#StartButtons{ position:absolute; bottom:52px; left:261px;}
+.Input{  border:solid 3px #c5338a; width:410px; height:40px;-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px; position:relative; left:20px; top:-16px; z-index:1; padding:0 10px; }
+#RegSubmit{  width:225px; height:56px;background:#33577e;font-family: 'gesstvbold'; font-size:32px; color:#fff;-webkit-border-radius: 24px;-moz-border-radius: 24px;border-radius: 24px;margin-top: 31px;}
+.Reg form img{ float:right; position:relative; z-index:2;}
+#Reg{ width:430px; position:relative; top:350px;}
+.Circle{ border: solid 7px #fff;
+width: 67px;
+height: 50px; margin-left:10px;
+padding-top: 15px; font-size:25px; color:#fff;margin-bottom:10px;
+-webkit-border-radius: 55px;-moz-border-radius: 55px;border-radius: 55px;
+}
+.PreviewButton{ float:left;margin:10px;}
+.PreviewButton:hover{ background:#c6318b !important;  }
+#PreviewHeader{ margin:124px 0 42px 0px;-webkit-border-radius: 9px;-moz-border-radius: 9px;border-radius: 9px;}
+#Preview{ margin:0 0 0 300px;}
+#Brawes{ background: #d97eb5;}
+#Zena{ background: #718eba;}
+#Word{ background: #33577e;}
+#Enter{ background: #c6318b;}
+#FrameHeader{ margin:30px 0 10px 0;}
+#LtFrame{ float:left; margin-left:20px;}
+#RtFrame{ background:#d4d1d3;-webkit-border-top-left-radius: 40px;
+-webkit-border-bottom-left-radius: 40px;
+-moz-border-radius-topleft: 40px;
+-moz-border-radius-bottomleft: 40px;
+border-top-left-radius: 40px;
+border-bottom-left-radius: 40px; width:657px; height:347px; background:d4d1d1; float:right;}
+.file_button_container,.file_button_container input {height: 352px;width: 567px;}
+.file_button_container {background: transparent url(../images/Upload_Button.html) left top no-repeat;margin: 362px 0 0 126px;float: left;}
+.file_button_container input {opacity: 0;}
+.Item{ float:right; margin:20px 5px 10px 0px; width:211px; height:125px; padding-top:10px; -webkit-border-radius: 18px;
+-moz-border-radius: 18px;
+border-radius: 18px;}
+.Item:hover{background:#d77eb2;}
+
+#GalleryButton{ position:absolute; right:20px; top:20px; padding:2px 10px !important; width:121px; font-size:31px}
+#LangButton{ position:absolute; left:20px; top:20px; padding:2px 10px !important; width:60px; font-size:16px}
+.Sticker{ float:right; position:absolute;}
+#Sticker1{ right:10px; top:10px;}
+#Sticker2{ right:120px; top:10px;}
+#Sticker3{ right:250px; top:10px;}
+#Sticker4{ left:230px; top:10px;}
+#Sticker5{ left:30px; top:10px;}
+#Sticker6{ left:120px; top:60px;}
+#Sticker7{ right:20px; top:180px;}
+#Sticker8{ right:150px; top:180px;}
+#Sticker9{ right:290px; top:170px;}
+#Sticker10{ left:270px; top:250px;}
+#Sticker11{ left:150px; top:200px;}
+#Sticker12{ left:20px; top:200px;}
+#RtFrame textarea{ 
+width: 372px;
+height: 150px;
+float: right;
+margin: 14px 108px 0 10px;
+-webkit-border-radius: 14px;
+-moz-border-radius: 14px;
+border-radius: 14px; border:0px; padding:10px;}
+#RtFrame input{font-family: 'gesstvbold'; text-align:center; padding:5px 0px; direction:rtl; position: absolute;
+left: 26px;
+bottom: 13px;}
+#GalleryBlock{  margin:340px 0 0 50px; float:left; width:700px; }
+.GalleryItem{float:left; margin:0 0 0 50px;}
+.GalleryItem img{ width: 175px;height: 161px;}
+.UserName{background:#33577e;-webkit-border-radius: 14px;-moz-border-radius: 14px;border-radius: 14px; color:#fff; padding:3px 0; margin:5px 0;}
+
+.FrameBlock6{ position:relative;width:365px; height:308px;-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg); top:20px   }
+.FrameBlock6 #Frame6Main{width:365px; height:308px; position:absolute; left:0px; top:0px ; z-index:2; float:left;}
+.FrameBlock6 #Frame6Baby{width:340px; height:285px;  position:absolute; top:10px; right:8px; z-index:1}
+
+.FrameBlock1{position: relative;}
+.FrameBlock1 #Frame1Main{position: absolute;z-index: 2; left:0px; top:0px}
+.FrameBlock1 #Frame1Baby{width:300px; height:200px;  position:absolute; top:10px; right:22px; z-index:1;}
+
+.FrameBlock2{ position:relative;width:380px; height:337px;  }
+.FrameBlock2 #Frame2Main{width:380px; height:337px; position:absolute; left:0px; top:0px ; z-index:2}
+.FrameBlock2 #Frame2Baby{width: 320px;height: 285px;position: absolute;top: 28px;right: 28px;z-index: 1;-webkit-border-radius: 161px;-moz-border-radius: 161px;border-radius: 161px;}
+
+
+.FrameBlock3{ position:relative;width:400px; height:254px;top: 56px;  }
+.FrameBlock3 #Frame3Main{width:400px; height:254px; position:absolute; left:0px; top:0px ; z-index:2}
+.FrameBlock3 #Frame3Baby{width: 386px;height: 243px;position: absolute;top: 5px;right: 7px;z-index: 1;-webkit-border-radius: 31px;-moz-border-radius: 31px;border-radius: 7px;}
+
+
+.FrameBlock4{ position:relative;width:400px; height:254px; top: 53px; }
+.FrameBlock4 #Frame4Main{width:400px; height:254px; position:absolute; left:0px; top:0px ; z-index:2}
+.FrameBlock4 #Frame4Baby{width: 364px;height: 214px;position: absolute;top: 21px;right: 24px;z-index: 1;/* -webkit-border-radius: 40px; */-moz-border-radius: 40px;/* border-radius: 40px; */-ms-transform: rotate(-5deg);-webkit-transform: rotate(-5deg);transform: rotate(-6deg);}
+
+.FrameBlock5{ position:relative;width:400px; height:254px; top:54px  }
+.FrameBlock5 #Frame5Main{width:400px; height:254px; position:absolute; left:0px; top:0px ; z-index:2}
+.FrameBlock5 #Frame5Baby{width: 375px;height: 229px;position: absolute;top: 13px;right: 12px;z-index: 1;}
+
+.StickerFrame{ cursor:move }
+.StickerFrameBlock{position:absolute; left:0px; top:0px; z-index:3; display:none;}
+.StickerFrameBlock .xSticker{ position:absolute; display:none;}
+.StickerFrameBlock:hover .xSticker{ display:block;}
+
+#WordGame{ position:relative; z-index:4}
+
+.First{}
+.Second{ position:relative; display:none;}
+.Third{position:relative; display:none;}
+
+#target{width: 480px;height: 330px;background: #bfbcbc;padding: 10px;border: 1px;-webkit-border-radius: 12px;-moz-border-radius: 12px;border-radius: 12px;margin:66px 0 12px 152px;float: left;overflow: hidden;}
+#WordGame{ position:relative; float:left;padding-top: 17px;}
+#DeleteWords{float: left;position: absolute;top: -3px; display:none}
+#WordGame:hover #DeleteWords{ display:block;}
+.FontColor{ float:left; margin:20px}
+#FontColor{margin: 30px 0 0 200px}
